@@ -4,6 +4,7 @@ title:  "About This Lab Notebook"
 date:   2018-07-21 09:49:35 -0700
 categories: post
 ---
+
 ## Why this site?
 
 During my final year at Bowdoin, I’ll be working on an [Honors Project](https://www.bowdoin.edu/academic-handbook/academics/honors.shtml): a year-long independent research project that acts as the culmination of my academic studies. I’m doing my project under the Computer Science department, advised by Professor [Eric Chown](http://bowdoin.edu/~echown).
@@ -12,30 +13,22 @@ During my final year at Bowdoin, I’ll be working on an [Honors Project](https:
 
 Pretty cool.
 
-I’m writing this the summer before my senior year, when the project is being fleshed out but work on it has not begun (clearly, since this is the first entry in the lab notebook). The project brief is, informally, to build a neural-network-based ball detection system for [RoboCup robots](https://www.youtube.com/watch?v=r7XT98HchBs). More specifically, this means:
+I’m writing this the summer before my senior year, when the project is being fleshed out but work on it has not begun (clearly, since this is the first entry in the lab notebook). The project brief is, informally, to investigate the viability of synthetic training data for machine-learning models. More specifically, this means:
 
-1. Training a machine-learning model to accurately detect the position and size of RoboCup SPL soccer balls within a frame of video
-2. Building or adapting a perceptron that will run locally on the robot and detect these balls in real-time
-3. Determine whether this perceptron is better or worse than the existing ball-detection solution
+1. Determining the best way to generate synthetic training data
+2. Testing different amounts and types of synthetic training data for different scenarios in which machine learning is used
+3. Coming to a broader conclusion about *when* and *how* synthetic data should be employed.
 
 As this is an academic project, I need some way of recording progress and keeping track of resources. Most projects in the sciences have lab notebooks associated with them. This is a project in the *computer* sciences, so it has a *computer* lab notebook. Pretty fancy!
 
 ## Why this project?
 
-Ball detection is a huge part of RoboCup success, and since the SPL changed the ball from a bright orange one to a black-and-white one, it has been one of our weak points. No other team in the SPL is using a completely machine-learned solution, and I believe that it can be done.
+I've been part of the [Bowdoin RoboCup](https://research.bowdoin.edu/robocup/) team throughout my Bowdoin tenure. We compete in international robotic soccer tournaments; the robots [play completely autonomously](https://www.youtube.com/watch?v=r7XT98HchBs) using input from cameras.
 
-Part of the challenge will be building a neural net to run on the robot: the computing power in the [Aldebaran Naos](https://en.wikipedia.org/wiki/Nao_(robot)) is weak, and traditional machine-learning frameworks will take too many computing resources. Instead, I will be building a perceptron that is both low-scope and low-power: it only needs to detect balls, but it needs to do so quickly and simply.
+Ball detection is a huge part of RoboCup success, and since the SPL changed the ball from a bright orange one to a black-and-white one, it has been one of our weak points. We've investigated rewriting our ball detection algorithm to use machine learning, but ran into the challenge of not having enough training data. As we played around with synthetic training data, we realized there was a lot more research to be done, research that would easily translate into something more broad.
 
 ## What to expect?
 
-I’ll be posting journal entries each day I work on the project, long-form posts when I am able to come to longer conclusions, and resources I use (books, articles, videos, etc.) to help me in my learning. This will be the place to keep up with my project, and will be a place where I, when writing the final paper, will reference to figure out what I did all year.
+I’ll be posting journal entries most days I work on the project, long-form posts when I am able to come to longer conclusions, and resources I use (books, articles, videos, etc.) to help me in my learning. This will be the place to keep up with my project, and will be a place where I, when writing the final paper, will reference to figure out what I did all year.
 
-A rough timeline of events is as follows:
-
-* **By October:** Build a set of training data through artificial means
-* **By Thanksgiving:** From the training data, build a model
-* **By March:** Build a perceptron that uses the model
-* **By April:** Run the perceptron on a robot
-* **By May:** Final tweaks for accuracy, write a paper, give a presentation
-
-Looks pretty ambitious!
+Seems pretty ambitious!
