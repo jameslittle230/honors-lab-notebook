@@ -2,7 +2,6 @@
 layout: post
 title:  "Thoughts on Data Formats"
 date:   2018-09-07
-categories: post
 ---
 
 Convolutional neural nets just take in a set of numbers and output a set of numbers. The exact numbers that go in (and the exact numbers that come out) depend on what the actual inputs are and what the intended output is. For example, a perceptron that detects whether an object is present in an image might take in pixel data as inputs and give back a single boolean value (1 or 0) that represents whether the object is present.

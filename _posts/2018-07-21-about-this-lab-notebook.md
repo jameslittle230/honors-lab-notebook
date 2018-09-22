@@ -2,7 +2,6 @@
 layout: post
 title:  "About This Lab Notebook"
 date:   2018-07-21 09:49:35 -0700
-categories: post
 ---
 
 ## Why this site?
