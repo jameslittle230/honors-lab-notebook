@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Numerical Data Doesn't Make Sense"
-date:   2018-09-15
+date:   2018-09-22
 ---
 
 I’ve been trying to wrap my mind around the idea of the different data formats I’m working with. I wrote a draft of an introduction to the final paper that narrowed the scope of the project down to just convolutional neural networks, and then talked about how I’m going to test primitives with CNNs for image, sound, and numerical data.
