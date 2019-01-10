@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Synthetic ML Training Data using Primitives
+title: Exploring IBSG
 email: jlittle@bowdoin.edu
 description: >- # this means to ignore newlines until "baseurl:"
     A digital lab notebook for an academic project by James Little
