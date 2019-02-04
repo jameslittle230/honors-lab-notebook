@@ -28,3 +28,16 @@ and then run:
 python3 stats.py > stats.txt
 ```
 
+Isolations:
+* Geometric shapes
+* Architectural patterns (brick, stone, etc)
+* Different types of number forms (handwriting, different fonts, etc)
+* Placards and other types of signs the numbers are on
+
+Modifications (global):
+* 3D transform
+* Motion blur
+* Brightness/contrast
+
+Modifications (local):
+* Shadows
