@@ -126,11 +126,11 @@ For completion’s sake, I also include the line `export LD_LIBRARY_PATH=$LD_LIB
 
 Since the API we’re using is based on object detection, you’ll need to have a dataset you want to work with. This dataset should be comprised of images and annotations in whatever format you choose: I had JPGs numbered `0.jpg` through `9999.jpg` and a CSV file with the coordinates of the objects I’m detecting.[^2] 
 
-![](/img/posts/tensorflow/files.png)
+![](http://jameslittle.me/img/posts/tensorflow/files.png)
 
 For each object in an image, you should have `x1`, `x2`, `y1` and `y2` coordinates available, where `(x1, y1)` is the upper left corner of the rectangle and `(x2, y2)` is the lower right corner of the rectangle.
 
-![](/img/posts/tensorflow/box.png)
+![](http://jameslittle.me/img/posts/tensorflow/box.png)
 
 You’ll probably have two of these datasets, one large one for training and one smaller one for testing. We’ll be taking the two datasets and transforming each of them into [`.tfrecord` files:](https://medium.com/mostly-ai/tensorflow-records-what-they-are-and-how-to-use-them-c46bc4bbb564) large binary files that contain a complete representation of the entire dataset.
 
