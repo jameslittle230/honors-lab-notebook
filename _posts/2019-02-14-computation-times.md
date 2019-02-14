@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Model Training Computation Times"
-date:   2019-02-01
+date:   2019-02-14
 ---
 
 First NBL test
